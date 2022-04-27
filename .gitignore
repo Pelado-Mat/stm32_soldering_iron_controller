@@ -1,7 +1,5 @@
 /.settings
 /.metadata
-/.project
-/.cproject
 /.mxproject
 /*.ioc
 /Core/Inc/board.h
@@ -13,5 +11,7 @@
 /Drivers/CMSIS
 /Drivers/STM32*
 /*.launch
-/Debug
-/Release
+/*_Release
+/*_Debug
+.externalToolBuilders/
+mx.scratch
