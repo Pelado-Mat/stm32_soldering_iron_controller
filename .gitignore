@@ -2,14 +2,6 @@
 /.metadata
 /.mxproject
 /*.ioc
-/Core/Inc/board.h
-/Core/Inc/*stm32*.*
-/Core/Src/*stm32*.*
-/Core/Src/syscalls.c
-/Core/Src/sysmem.c
-/Core/Startup/*.*
-/Drivers/CMSIS
-/Drivers/STM32*
 /*.launch
 /*_Release
 /*_Debug

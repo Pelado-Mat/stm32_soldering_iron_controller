@@ -1,0 +1,27 @@
+ECLIPSE_HOME     = $(eclipse_home)
+BOARD_FOLDER     = ../$(board_folder)
+IT_FILE          = $(it_file)
+
+STM32CUBEMX  := $(shell sh -c "find \"${ECLIPSE_HOME}/plugins\" -name \"STM32CubeMX.jar\" -maxdepth 2 -mindepth 2")
+PRJ_DIR      := $(shell sh -c "pwd")/..
+BOARD_FOLDER_ABS = $(PRJ_DIR)/$(board_folder)
+
+default : all ;
+
+# the default make in the STM32CubeMX is from 2016, does not support grouped targets
+# if they decide to update make use grouped targets, that solves the issue of copying a template then running the cubemx generator on it:
+#$(BOARD_FOLDER)/Core/Src/main.c $(BOARD_FOLDER)/Core/Inc/main.h $(BOARD_FOLDER)/Core/Src/$(IT_FILE) &: ../mcu/templates/main.c ../mcu/templates/main.h ../mcu/templates/$(IT_FILE) $(BOARD_FOLDER)/mcu_config.ioc
+# also change the "all" target
+
+# use a dummy "generated" file as a target
+$(BOARD_FOLDER)/generated : ../mcu/templates/main.c ../mcu/templates/main.h ../mcu/templates/$(IT_FILE) $(BOARD_FOLDER)/mcu_config.ioc
+	sh -c "cp ../mcu/templates/${IT_FILE} $(BOARD_FOLDER)/Core/Src/${IT_FILE}"
+	sh -c "cp ../mcu/templates/main.h     $(BOARD_FOLDER)/Core/Inc/main.h"
+	sh -c "cp ../mcu/templates/main.c     $(BOARD_FOLDER)/Core/Src/main.c"
+	sh -c "cd \"$(BOARD_FOLDER_ABS)\"; java -jar \"${STM32CUBEMX}\" -q \"${PRJ_DIR}/mcu/cubemx_gen_script\""
+	sh -c "touch $(BOARD_FOLDER)/generated"
+
+all : $(BOARD_FOLDER)/generated
+
+clean :
+	sh -c "rm $(BOARD_FOLDER)/generated"
