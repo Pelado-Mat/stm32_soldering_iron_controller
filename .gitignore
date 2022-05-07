@@ -1,9 +1,7 @@
 /.settings
 /.metadata
 /.mxproject
-/*.ioc
 /*.launch
 /*_Release
 /*_Debug
-.externalToolBuilders/
 mx.scratch
