@@ -24,11 +24,11 @@ default : all ;
 #$(BOARD_FOLDER)/Core/Src/main.c $(BOARD_FOLDER)/Core/Inc/main.h $(BOARD_FOLDER)/Core/Src/$(IT_FILE) &: ../mcu/templates/main.c ../mcu/templates/main.h ../mcu/templates/$(IT_FILE) $(BOARD_FOLDER)/mcu_config.ioc
 
 # use a dummy "generated" file as a target
-$(BOARD_FOLDER)/generated : ./mcu/templates/main.c ./mcu/templates/main.h ./mcu/templates/$(IT_FILE) $(BOARD_FOLDER)/mcu_config.ioc
+$(BOARD_FOLDER)/generated : ./mcu/templates/main.c ./mcu/templates/main.h ./mcu/templates/$(IT_FILE) $(BOARD_FOLDER)/$(BOARD).ioc
 	sh -c "cp ./mcu/templates/$(IT_FILE) $(BOARD_FOLDER)/Core/Src/$(IT_FILE)"
 	sh -c "cp ./mcu/templates/main.h     $(BOARD_FOLDER)/Core/Inc/main.h"
 	sh -c "cp ./mcu/templates/main.c     $(BOARD_FOLDER)/Core/Src/main.c"
-	sh -c "cd \"$(BOARD_FOLDER_ABS)\"; \"$(JAVA)\" -jar \"$(STM32CUBEMX)\" -q \"$(PRJ_DIR)/mcu/cubemx_gen_script\""
+	sh -c "cd \"$(BOARD_FOLDER_ABS)\"; \"$(JAVA)\" -jar \"$(STM32CUBEMX)\" -q cubemx_gen_script"
 	sh -c "touch $(BOARD_FOLDER)/generated"
 	sh -c "echo Generate complete."
 

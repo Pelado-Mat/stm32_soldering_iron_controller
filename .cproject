@@ -50,12 +50,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics/gui}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/addons}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Drivers/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Core/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Core/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Core/Config}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.1204190051" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wno-builtin-macro-redefined"/>
@@ -148,12 +148,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics/gui}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/addons}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Drivers/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V1_5/Core/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Core/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V1_5/src/Core/Config}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.509467143" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wno-builtin-macro-redefined"/>
@@ -245,12 +245,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics/gui}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/addons}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Drivers/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Core/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Core/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Core/Config}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.35137890" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wno-builtin-macro-redefined"/>
@@ -343,12 +343,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics/gui}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/addons}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Drivers/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V2/Core/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Core/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V2/src/Core/Config}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.1811655977" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wno-builtin-macro-redefined"/>
@@ -441,12 +441,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics/gui}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/addons}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Drivers/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Core/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Core/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Core/Config}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.427650312" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wno-builtin-macro-redefined"/>
@@ -539,12 +539,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics/gui}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/addons}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Drivers/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/KSGER_V3/Core/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Core/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/KSGER_V3/src/Core/Config}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.914514001" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wno-builtin-macro-redefined"/>
@@ -637,12 +637,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics/gui}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/addons}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Drivers/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Core/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Core/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Core/Config}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.1456639263" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wno-builtin-macro-redefined"/>
@@ -735,12 +735,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics/gui}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/addons}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Drivers/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F103/Core/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Drivers/STM32F1xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Core/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F103/src/Core/Config}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.26577071" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wno-builtin-macro-redefined"/>
@@ -833,12 +833,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics/gui}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/addons}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Drivers/STM32F0xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Drivers/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Drivers/CMSIS/Device/ST/STM32F0xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Core/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Drivers/STM32F0xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Drivers/CMSIS/Device/ST/STM32F0xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Core/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Core/Config}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.1365167852" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wno-builtin-macro-redefined"/>
@@ -931,12 +931,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/graphics/gui}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/src/addons}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Drivers/STM32F0xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Drivers/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Drivers/CMSIS/Device/ST/STM32F0xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Quicko_STM32F072/Core/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Drivers/STM32F0xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Drivers/CMSIS/Device/ST/STM32F0xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Core/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32SolderingStation/boards/Quicko_STM32F072/src/Core/Config}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags.1953438011" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wno-builtin-macro-redefined"/>
