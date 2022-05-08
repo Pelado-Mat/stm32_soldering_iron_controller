@@ -19,9 +19,8 @@ JAVA         = $(JRE_PLUGIN)/jre/bin/java
 default : all ;
 
 # the default make in the STM32CubeMX is from 2016, does not support grouped targets
-# if they decide to update make use grouped targets, that solves the issue of copying a template then running the cubemx generator on it:
+# if they decide to update make use grouped targets, that solve the issue of copying a template then running the cubemx generator on it:
 #$(BOARD_FOLDER)/Core/Src/main.c $(BOARD_FOLDER)/Core/Inc/main.h $(BOARD_FOLDER)/Core/Src/$(IT_FILE) &: ../mcu/templates/main.c ../mcu/templates/main.h ../mcu/templates/$(IT_FILE) $(BOARD_FOLDER)/mcu_config.ioc
-# also change the "all" target
 
 # use a dummy "generated" file as a target
 $(BOARD_FOLDER)/generated : ./mcu/templates/main.c ./mcu/templates/main.h ./mcu/templates/$(IT_FILE) $(BOARD_FOLDER)/mcu_config.ioc
