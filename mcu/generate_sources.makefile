@@ -1,6 +1,7 @@
-
+# these variables should come from the build env, currently they come from the description of the target
 BOARD            = $(word 1, $(board_cfg))
 MCU              = $(word 2, $(board_cfg))
+
 ECLIPSE_HOME     = $(eclipse_home)
 BOARD_FOLDER     = ./boards/$(BOARD)/src
 
@@ -29,12 +30,14 @@ $(BOARD_FOLDER)/generated : ./mcu/templates/main.c ./mcu/templates/main.h ./mcu/
 	sh -c "cp ./mcu/templates/main.c     $(BOARD_FOLDER)/Core/Src/main.c"
 	sh -c "cd \"$(BOARD_FOLDER_ABS)\"; \"$(JAVA)\" -jar \"$(STM32CUBEMX)\" -q \"$(PRJ_DIR)/mcu/cubemx_gen_script\""
 	sh -c "touch $(BOARD_FOLDER)/generated"
+	sh -c "echo Generate complete."
 
 all : $(BOARD_FOLDER)/generated
 
 clean :
-	sh -c "rm $(BOARD_FOLDER)/generated"
-	sh -c "rm -r $(BOARD_FOLDER)/EWARM"
+	sh -c "rm -f $(BOARD_FOLDER)/generated"
+	sh -c "rm -rf $(BOARD_FOLDER)/EWARM"
 	sh -c "cd $(BOARD_FOLDER)/Core/Inc; find . -not -name 'GENERATED_FILES_DO_NOT_MODIFY' -delete"
 	sh -c "cd $(BOARD_FOLDER)/Core/Src; find . -not -name 'GENERATED_FILES_DO_NOT_MODIFY' -delete"
 	sh -c "cd $(BOARD_FOLDER)/Drivers; find . -not -name 'GENERATED_FILES_DO_NOT_MODIFY' -delete"
+	sh -c "echo Clean complete."
