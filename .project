@@ -3,22 +3,13 @@
 	<name>STM32SolderingStation</name>
 	<comment></comment>
 	<projects>
+		<project>KSGER_V1_5</project>
+		<project>KSGER_V2</project>
+		<project>KSGER_V3</project>
+		<project>Quicko_STM32F072</project>
+		<project>Quicko_STM32F103</project>
 	</projects>
 	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
-			<triggers>auto,full,incremental,</triggers>
-			<arguments>
-				<dictionary>
-					<key>LaunchConfigHandle</key>
-					<value>&lt;project&gt;/.externalToolBuilders/GenerateSources.launch</value>
-				</dictionary>
-				<dictionary>
-					<key>incclean</key>
-					<value>true</value>
-				</dictionary>
-			</arguments>
-		</buildCommand>
 		<buildCommand>
 			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
 			<triggers>clean,full,incremental,</triggers>
@@ -29,16 +20,6 @@
 			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
 			<triggers>full,incremental,</triggers>
 			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
-			<triggers>clean,</triggers>
-			<arguments>
-				<dictionary>
-					<key>LaunchConfigHandle</key>
-					<value>&lt;project&gt;/.externalToolBuilders/Cleaner.launch</value>
-				</dictionary>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
