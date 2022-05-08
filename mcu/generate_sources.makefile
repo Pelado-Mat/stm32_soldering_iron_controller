@@ -33,9 +33,9 @@ $(BOARD_FOLDER)/generated : ./mcu/templates/main.c ./mcu/templates/main.h ./mcu/
 
 all : $(BOARD_FOLDER)/generated
 
-#clean :
-#	sh -c "rm $(BOARD_FOLDER)/generated"
-#	sh -c "rm -r $(BOARD_FOLDER)/EWARM"
-#	sh -c "cd $(BOARD_FOLDER)/Core/Inc; find . -not -name 'GENERATED_FILES_DO_NOT_MODIFY' -delete"
-#	sh -c "cd $(BOARD_FOLDER)/Core/Src; find . -not -name 'GENERATED_FILES_DO_NOT_MODIFY' -delete"
-#	sh -c "cd $(BOARD_FOLDER)/Drivers; find . -not -name 'GENERATED_FILES_DO_NOT_MODIFY' -delete"
+clean :
+	sh -c "rm $(BOARD_FOLDER)/generated"
+	sh -c "rm -r $(BOARD_FOLDER)/EWARM"
+	sh -c "cd $(BOARD_FOLDER)/Core/Inc; find . -not -name 'GENERATED_FILES_DO_NOT_MODIFY' -delete"
+	sh -c "cd $(BOARD_FOLDER)/Core/Src; find . -not -name 'GENERATED_FILES_DO_NOT_MODIFY' -delete"
+	sh -c "cd $(BOARD_FOLDER)/Drivers; find . -not -name 'GENERATED_FILES_DO_NOT_MODIFY' -delete"
