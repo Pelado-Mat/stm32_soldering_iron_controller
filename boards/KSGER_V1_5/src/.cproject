@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
-		<cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.116108451">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.116108451" moduleId="org.eclipse.cdt.core.settings" name="Dummy">
+		<cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.dummy.116108451">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.dummy.116108451" moduleId="org.eclipse.cdt.core.settings" name="Dummy">
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -13,9 +13,9 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.116108451" name="Dummy" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.116108451">
-					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.116108451." name="/" resourcePath="">
-						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release.2049731486" name="MCU ARM GCC">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.dummy.116108451" name="Dummy" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.dummy.116108451">
+					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.dummy.116108451." name="/" resourcePath="">
+						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.dummy.2049731486" name="MCU ARM GCC">
 							<option id="com.st.stm32cube.ide.mcu.option.internal.toolchain.type.1060013389" name="Internal Toolchain Type" superClass="com.st.stm32cube.ide.mcu.option.internal.toolchain.type" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.gnu-tools-for-stm32" valueType="string"/>
 							<option id="com.st.stm32cube.ide.mcu.option.internal.toolchain.version.151640777" name="Internal Toolchain Version" superClass="com.st.stm32cube.ide.mcu.option.internal.toolchain.version" useByScannerDiscovery="false" value="7-2018-q2-update" valueType="string"/>
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.52987016" name="MCU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" useByScannerDiscovery="true" value="STM32F103CBTx" valueType="string"/>
@@ -26,7 +26,7 @@
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.convertbinary.131369046" name="Convert to binary file (-O binary)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.convertbinary" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.converthex.649351296" name="Convert to Intel Hex file (-O ihex)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.converthex" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 							<targetPlatform archList="all" binaryParser="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.887954617" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
-							<builder buildPath="${workspace_loc:/KSGER_V1_5}/Release" command="" enableCleanBuild="false" enabledIncrementalBuild="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.1847189208" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder">
+							<builder buildPath="${workspace_loc:/KSGER_V1_5}/Dummy" command="" enableCleanBuild="false" enabledIncrementalBuild="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.1847189208" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder">
 								<outputEntries>
 									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name=""/>
 								</outputEntries>
@@ -81,7 +81,6 @@
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="templates"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -108,12 +107,6 @@
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.dummy.116108451;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.dummy.116108451.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.829182224;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.711973026">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.924723770;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.924723770.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.697006668;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1312585653">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.116108451;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.116108451.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.829182224;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.711973026">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.dummy.2056174560;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.dummy.2056174560.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1737764670;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2059874713">
 			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
