@@ -3,11 +3,6 @@
 	<name>STM32SolderingStation</name>
 	<comment></comment>
 	<projects>
-		<project>KSGER_V1_5</project>
-		<project>KSGER_V2</project>
-		<project>KSGER_V3</project>
-		<project>Quicko_STM32F072</project>
-		<project>Quicko_STM32F103</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
