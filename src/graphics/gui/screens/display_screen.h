@@ -5,13 +5,13 @@
  *      Author: David    Original work by Jose Barros (PTDreamer), 2017
  */
 
-#ifndef _GUI_SETTINGS_SCREEN_H_
-#define _GUI_SETTINGS_SCREEN_H_
+#ifndef _GUI_DISPLAY_SCREEN_H_
+#define _GUI_DISPLAY_SCREEN_H_
 
 #include "screen.h"
 
 
-extern screen_t Screen_settings;
-void settings_screen_setup(screen_t *scr);
+extern screen_t Screen_display;
+void display_screen_setup(screen_t *scr);
 
 #endif /* SETTINGS_GUI_DEBUG_SCREEN_H_ */

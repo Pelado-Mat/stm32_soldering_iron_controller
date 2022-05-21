@@ -14,16 +14,18 @@
 /********************************
  *       Display Settings    *
  ********************************/
-#define OLED_SPI                                              // SPI display
-//#define OLED_I2C                                            // I2C display
+#define SSD1306
+//#define ST7565
+#define DISPLAY_SPI                                              // SPI display
+//#define DISPLAY_I2C                                            // I2C display
 //#define I2C_TRY_HW                                          // Try I2C HW first, use I2C SW if not detected
-//#define OLED_ADDRESS      (0x3c<<1)                         // Only used for i2c
-#define OLED_DEVICE         hspi1                             // SPI / I2C handler if used. Enables HW mode, otherwise SW mode is used
+//#define DISPLAY_ADDRESS      (0x3c<<1)                         // Only used for i2c
+#define DISPLAY_DEVICE         hspi1                             // SPI / I2C handler if used. Enables HW mode, otherwise SW mode is used
 #define FILL_DMA            hdma_memtomem_dma1_channel2       // DMA mem2mem for filling
 #define USE_RST                                               // Reset pin is used
 #define USE_DC                                                // DC pin is used
 #define USE_CS                                                // CS pin is used
-#define OLED_OFFSET         0                                 // Display offset
+#define DISPLAY_OFFSET         0                                 // Display offset
 
 /********************************
  *       PWM Settings        *
@@ -91,7 +93,6 @@
 #define BUZZER_OFF          HAL_GPIO_WritePin(BUZZER_GPIO_Port, BUZZER_Pin, GPIO_PIN_RESET)
 #define BUZZER_TOGGLE       HAL_GPIO_TogglePin(BUZZER_GPIO_Port, BUZZER_Pin)
 
-
 /********************************
  *       Addons/Extras    *
  ********************************/
@@ -103,7 +104,6 @@
     defined(ENABLE_ADDON_SWITCH_OFF_REMINDER)
 #define ENABLE_ADDONS
 #endif
-
 
 /********************************
  *       Misc    *

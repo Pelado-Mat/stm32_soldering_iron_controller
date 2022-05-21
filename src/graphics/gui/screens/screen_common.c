@@ -115,26 +115,31 @@ uint8_t checkScreenTimer(uint32_t time){
   }
   return 0;
 }
-void restore_brightness(void){
-  if(getBrightness() != systemSettings.settings.brightness){
-    setBrightness(systemSettings.settings.brightness);
+void restore_contrastOrBrightness(void){
+#ifndef ST7565
+  if(getDisplayContrastOrBrightness() != systemSettings.settings.contrastOrBrightness){
+    setDisplayContrastOrBrightness(systemSettings.settings.contrastOrBrightness);
   }
+#endif
 }
 
 void wakeOledDim(void){
+#ifndef ST7565
   dim.timer = current_time;
-  if(dim.step<=0 && getBrightness()<systemSettings.settings.brightness ){
-    if(getOledPower()==disable){
-      setOledPower(enable);
+  if(dim.step<=0 && getDisplayContrastOrBrightness()<systemSettings.settings.contrastOrBrightness ){
+    if(getDisplayPower()==disable){
+      setDisplayPower(enable);
     }
     dim.step=10;
     dim.min_reached=0;
   }
+#endif
 }
 
 void handleOledDim(void){
-  uint16_t brightness=getBrightness();
-  if(!getOledPower() && getCurrentMode()>mode_sleep){                   // If screen turned off and not in sleep mode, wake it.
+#ifndef ST7565
+  uint16_t brightness=getDisplayContrastOrBrightness();
+  if(!getDisplayPower() && getCurrentMode()>mode_sleep){                   // If screen turned off and not in sleep mode, wake it.
     wakeOledDim();                                                   		// (Something woke the station from sleep)
   }
 
@@ -148,7 +153,7 @@ void handleOledDim(void){
     }
     // If min. brightness reached and Oled power is disabled in sleep mode, turn off screen if temp<100ºC or error active
     else if(dim.min_reached && getCurrentMode()==mode_sleep && systemSettings.settings.dim_inSleep==disable && (last_TIP_C<100 || (getIronErrorFlags().active))){
-      setOledPower(disable);
+      setDisplayPower(disable);
       dim.min_reached=0;
     }
   }
@@ -156,20 +161,21 @@ void handleOledDim(void){
   else if((current_time-dim.stepTimer)>19){
     dim.stepTimer = current_time;
     brightness+=dim.step;
-    if(brightness>4 && brightness<systemSettings.settings.brightness){
-      setBrightness(brightness);
+    if(brightness>4 && brightness<systemSettings.settings.contrastOrBrightness){
+      setDisplayContrastOrBrightness(brightness);
     }
     else{
       if(dim.step>0){
-        restore_brightness();
+        restore_contrastOrBrightness();
       }
       else{
-        setBrightness(1);
+        setDisplayContrastOrBrightness(1);
         dim.min_reached=1;
       }
       dim.timer = current_time;
       dim.step=0;
     }
   }
+#endif
 }
 
