@@ -1,10 +1,6 @@
 
-#ifndef SETUP_H_
-#define SETUP_H_
-/*
- * Setup.h file
-*/
-
+#ifndef BOARD_H_
+#define BOARD_H_
 /*
     BOARD PROFILE FOR KSGER v2.x
 */
@@ -14,8 +10,9 @@
 /********************************
  *       Display Settings    *
  ********************************/
-#define SSD1306
-//#define ST7565
+#if !defined(SSD1306) && !defined(ST7565)
+#error define a display type
+#endif
 //#define DISPLAY_SPI                                            // SPI display
 #define DISPLAY_I2C                                              // I2C display
 //#define I2C_TRY_HW                                          // Try I2C HW first, use I2C SW if not detected
