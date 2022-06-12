@@ -51,7 +51,7 @@ static int32_t clampValues(int32_t val){
 static void * getTemp() {
   static int32_t value;
   if(update){
-    value=readTipTemperatureCompensated(old_reading, read_average, systemSettings.settings.tempUnit);
+    value=readTipTemperatureCompensated(old_reading, read_average, getSystemTempUnit());
   }
   temp=value;
   return &temp;
@@ -221,9 +221,10 @@ static void debug_onEnter(screen_t *scr){
 
   editable_widget_t *edit = extractEditablePartFromWidget(widget_setPoint);
   displayOnly_widget_t *dis = extractDisplayPartFromWidget(widget_Temp);
+  bool tempUnit = getSystemTempUnit();
 
 
-  if(systemSettings.settings.tempUnit==mode_Celsius){
+  if(tempUnit==mode_Celsius){
     if(scr!=&Screen_debug){
       edit->max_value = 450;
       edit->min_value = 0;
@@ -248,7 +249,7 @@ static void debug_onEnter(screen_t *scr){
     backupMode=getCurrentMode();
     backupTemp=getUserTemperature();
 
-    if(systemSettings.settings.tempUnit==mode_Celsius){
+    if(tempUnit==mode_Celsius){
       debug_temp=0;
     }
     else{
