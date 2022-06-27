@@ -103,7 +103,7 @@ const strings_t strings[LANGUAGE_COUNT] = {
 #endif
 
       .SYSTEM_DISPLAY_MENU = "DISPLAY",
-#ifndef ST756
+#ifndef ST7756
       .DISPLAY_ContrastOrBrightness = "Brightness",
 #else
       .DISPLAY_ContrastOrBrightness = "Contrast",
