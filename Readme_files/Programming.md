@@ -68,7 +68,7 @@ Info : auto-selecting first available session transport "hla_swd". To override u
 Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
 Info : clock speed 1000 kHz
 Info : STLINK V2J37S7 (API v2) VID:PID 0483:3748
-Info : Target voltage: 3.219048
+Info : Target voltage: 3.232297
 Info : stm32f1x.cpu: hardware has 6 breakpoints, 4 watchpoints
 Info : starting gdb server for stm32f1x.cpu on 3333
 Info : Listening on port 3333 for gdb connections
@@ -83,5 +83,7 @@ target halted due to debug-request, current mode: Thread
 xPSR: 0x01000000 pc: 0x080033f0 msp: 0x20002800
 ** Programming Started **
 ** Programming Finished **
-$ 
+** Verify Started **
+** Verified OK **
+
 ```
